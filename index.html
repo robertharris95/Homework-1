@@ -10,15 +10,19 @@
     <meta name="Description3" content="Improve Traffic on Facebook">
     <meta name="Description4" content="Help with Google analytics">
     <meta name="Description5" content="Get to the front page on Google">
+    <script src="jquery-3.4.1.js"></script>
     <link rel="stylesheet" type="text/css" href="./reset.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-    <script src="Accessibility.js"></script> 
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css"> 
     <title>
         Your local SEO service provider
     </title>
 </head>
 
+
 <body>
+    
+
+
     <header>
         <h1>Hori
             <span class="seo">
@@ -26,6 +30,10 @@
             </span>
             n
         </h1>
+<!-- <Credit Red Stapler on Youtube></Credit> -->
+        <div class="loader-wrapper">
+                <span class="loader"><span class="loader-inner"></span></span>
+            </div>
 
         <div id="Links">
             <ul>
@@ -52,7 +60,7 @@
 
     <div class="hero"></div>
 
-    <div class="content">
+    <main>
         <section class="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" 
             class="float-left" 
@@ -96,7 +104,7 @@
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
         </section>
-    </div>
+    </main>
 
     <div class="benefits">
          <section class="benefit-lead">
@@ -148,6 +156,13 @@
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
     </footer>
+    
+    <!-- <Credit Red Stapler on Youtube></Credit> -->
+    <script>
+            $(window).on("load",function(){
+              $(".loader-wrapper").fadeOut("slow");
+            });
+        </script>
 </body>
 
 </html>
